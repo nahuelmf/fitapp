@@ -1,5 +1,5 @@
 export const translations = {
-  es: { tracker: 'TRACKER', cardio: 'CARDIO', routines: 'RUTINAS', badges: 'LOGROS', pushups: 'FLEXIONES', squats: 'SENTADILLAS', finish: 'GUARDAR MISIÓN', steps: 'PASOS', bike: 'BICI', running: 'CORRER', start: 'INICIAR', stop: 'PARAR' },
-  en: { tracker: 'TRACKER', cardio: 'CARDIO', routines: 'ROUTINES', badges: 'BADGES', pushups: 'PUSH-UPS', squats: 'SQUATS', finish: 'SAVE MISSION', steps: 'STEPS', bike: 'BIKE', running: 'RUNNING', start: 'START', stop: 'STOP' },
-  pt: { tracker: 'TRACKER', cardio: 'CARDIO', routines: 'ROTINAS', badges: 'CONQUISTAS', pushups: 'FLEXÕES', squats: 'AGACHAMENTOS', finish: 'SALVAR MISSÃO', steps: 'PASSOS', bike: 'BIKE', running: 'CORRIDA', start: 'INICIAR', stop: 'PARAR' }
+  es: { tracker: 'TRACKER', cardio: 'CARDIO', routines: 'RUTINAS', badges: 'LOGROS', pushups: 'FLEXIONES', squats: 'SENTADILLAS', finish: 'GUARDAR MISIÓN', steps: 'PASOS', bike: 'BICI', running: 'CORRER', start: 'INICIAR', stop: 'PARAR', technique: 'TÉCNICA' },
+  en: { tracker: 'TRACKER', cardio: 'CARDIO', routines: 'ROUTINES', badges: 'BADGES', pushups: 'PUSH-UPS', squats: 'SQUATS', finish: 'SAVE MISSION', steps: 'STEPS', bike: 'BIKE', running: 'RUNNING', start: 'START', stop: 'STOP', technique: 'TÉCNICA' },
+  pt: { tracker: 'TRACKER', cardio: 'CARDIO', routines: 'ROTINAS', badges: 'CONQUISTAS', pushups: 'FLEXÕES', squats: 'AGACHAMENTOS', finish: 'SALVAR MISSÃO', steps: 'PASSOS', bike: 'BIKE', running: 'CORRIDA', start: 'INICIAR', stop: 'PARAR', technique: 'TÉCNICA' }
 };
