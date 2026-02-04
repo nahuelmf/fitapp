@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+body {
+  background-color: #020617;
+  overscroll-behavior-y: contain; /* Evita el efecto de "rebote" al scrollear en iOS */
+}
+
+@keyframes neon-pulse {
+  0%, 100% { filter: drop-shadow(0 0 5px #FF0055) brightness(1); }
+  50% { filter: drop-shadow(0 0 15px #FF0055) brightness(1.2); }
+}
+.animate-neon-pulse {
+  animation: neon-pulse 2s infinite ease-in-out;
+}
