@@ -58,18 +58,19 @@ const App: React.FC = () => {
   };
 
   // --- LÓGICA DE CARDIO (PASOS) ---
-  const toggleTimer = () => {
-    if (isRunning) {
-      clearInterval(timerRef.current);
-      setIsRunning(false);
-    } else {
-      setIsRunning(true);
-      timerRef.current = setInterval(() => {
-        setTime(prev => prev + 1);
-        setStats(s => ({ ...s, pasos: s.pasos + 2 })); // Simulación: 2 pasos x seg
-      }, 1000);
-    }
-  };
+const toggleTimer = () => {
+  if (isRunning) {
+    if (timerRef.current) clearInterval(timerRef.current);
+    setIsRunning(false);
+  } else {
+    setIsRunning(true);
+    timerRef.current = setInterval(() => {
+      setTime(prev => prev + 1);
+      // Aquí el fix: Definimos 's' como any o usamos el spread directo
+      setStats((s: any) => ({ ...s, pasos: s.pasos + 2 }));
+    }, 1000);
+  }
+};
 
   return (
     <div className="min-h-screen bg-[#050505] text-[#e0e0e0] font-sans pb-32 overflow-x-hidden">
