@@ -42,10 +42,10 @@ export const RUTINAS_DATA = [
     { id: '28', titulo: 'Bici Sprints', nivel: 'Avanzado', categoria: 'Cardio', videoUrl: 'https://www.youtube.com/watch?v=cqoNTr02fRk', ejercicios: [{nombre: 'Sprints', series: 10, reps: '30s'}] },
     { id: '29', titulo: 'Trote Recuperación', nivel: 'Principiante', categoria: 'Cardio', videoUrl: 'https://www.youtube.com/watch?v=cqoNTr02fRk', ejercicios: [{nombre: 'Zona 2', series: 1, reps: '40m'}] },
     { id: '30', titulo: 'Circuito Agilidad', nivel: 'Intermedio', categoria: 'Cardio', videoUrl: 'https://www.youtube.com/watch?v=cqoNTr02fRk', ejercicios: [{nombre: 'Laterales', series: 5, reps: '1m'}] }
-  ];
+];
 
-  export const translations = {
-  es: { tracker: 'TRACKER', technique: 'TÉCNICA', cardio: 'CARDIO', routines: 'RUTINAS', badges: 'LOGROS', pushups: 'FLEXIONES', squats: 'SENTADILLAS', finish: 'GUARDAR MISIÓN', steps: 'PASOS', bike: 'BICI', running: 'CORRER', start: 'INICIAR', stop: 'PARAR' },
-  en: { tracker: 'TRACKER', technique: 'TÉCNICA', cardio: 'CARDIO', routines: 'ROUTINES', badges: 'BADGES', pushups: 'PUSH-UPS', squats: 'SQUATS', finish: 'SAVE MISSION', steps: 'STEPS', bike: 'BIKE', running: 'RUNNING', start: 'START', stop: 'STOP' },
-  pt: { tracker: 'TRACKER', technique: 'TÉCNICA' ,cardio: 'CARDIO', routines: 'ROTINAS', badges: 'CONQUISTAS', pushups: 'FLEXÕES', squats: 'AGACHAMENTOS', finish: 'SALVAR MISSÃO', steps: 'PASSOS', bike: 'BIKE', running: 'CORRIDA', start: 'INICIAR', stop: 'PARAR' }
+export const translations = {
+    es: { tracker: 'TRACKER', technique: 'TÉCNICA', cardio: 'CARDIO', routines: 'RUTINAS', badges: 'LOGROS', pushups: 'FLEXIONES', squats: 'SENTADILLAS', finish: 'GUARDAR MISIÓN', steps: 'PASOS', bike: 'BICI', running: 'CORRER', start: 'INICIAR', stop: 'PARAR' },
+    en: { tracker: 'TRACKER', technique: 'TECHNIQUE', cardio: 'CARDIO', routines: 'ROUTINES', badges: 'BADGES', pushups: 'PUSH-UPS', squats: 'SQUATS', finish: 'SAVE MISSION', steps: 'STEPS', bike: 'BIKE', running: 'RUNNING', start: 'START', stop: 'STOP' },
+    pt: { tracker: 'TRACKER', technique: 'TÉCNICA', cardio: 'CARDIO', routines: 'ROTINAS', badges: 'CONQUISTAS', pushups: 'FLEXÕES', squats: 'AGACHAMENTOS', finish: 'SALVAR MISSÃO', steps: 'PASSOS', bike: 'BIKE', running: 'CORRIDA', start: 'INICIAR', stop: 'PARAR' }
 };
